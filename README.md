@@ -147,17 +147,18 @@ def clean_dataframe(df):
 - 🏆 Top 8 cabang berdasarkan DPK (bar chart)
 - 📱 Volume transaksi per channel (bar chart)
 
-### 3. Executive Report Otomatis
-```
-┌──────────────────────────────────────────────────────────┐
-│         RINGKASAN KINERJA BANK MDN — H1 2024             │
-├──────────────────────────┬───────────────────────────────┤
-│  Dana Pihak Ketiga       │  Rp X.XX Triliun              │
-│  LDR                     │  XX.X%  ✅ Sehat              │
-│  NPL Gross               │  X.XX%  ✅ AMAN               │
+## Berikut hasil aktual dari dataset MDN Bank:
+KPI Utama H1 2024:
+
+DPK: Rp 25,53 Triliun (97,5% dari target Rp 26,19 T — belum capai)
+LDR: 71,8% — di bawah range ideal 78–92%
+NPL Gross: 18,07% — ini yang paling kritis, jauh melampaui threshold OJK 5%
+Fee-Based Income: Rp 52,5 Miliar
+Nasabah baru H1: 7.380
+
+Catatan penting soal NPL: Angka 18,07% sangat tinggi karena dari 250 debitur, ada 60 debitur masuk kolektibilitas bermasalah (Kurang Lancar 26 + Diragukan 19 + Macet 15). Semua jenis kredit melampaui threshold — KKB paling parah di 29,78%, diikuti KUR 23,87%. Cabang Medan Gatsu dan Bandung Buah Batu jadi cabang dengan NPL tertinggi (>47%).
 └──────────────────────────┴───────────────────────────────┘
 ```
-Lengkap dengan **temuan utama (So What?)** dan **rekomendasi aksi (Now What?)**.
 
 **Cara menjalankan:**
 
@@ -180,16 +181,6 @@ Lengkap dengan **temuan utama (So What?)** dan **rekomendasi aksi (Now What?)**.
 | ROA | ≥ 0.5% | Return on Assets |
 | ROE | ≥ 10% | Return on Equity |
 
----
-
-## 🛠️ Tech Stack
-
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=flat&logo=postgresql&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3.10-blue?style=flat&logo=python&logoColor=white)
-![Google Colab](https://img.shields.io/badge/Google%20Colab-F9AB00?style=flat&logo=googlecolab&logoColor=white)
-![Claude AI](https://img.shields.io/badge/Claude%20AI-Anthropic-orange?style=flat)
-![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat&logo=pandas&logoColor=white)
-![Matplotlib](https://img.shields.io/badge/Matplotlib-11557C?style=flat)
 
 ---
 
