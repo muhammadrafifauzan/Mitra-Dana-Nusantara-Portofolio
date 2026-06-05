@@ -30,6 +30,16 @@ Seluruh dataset bersifat **fiktif dan dibuat untuk tujuan edukasi**.
 
 ```
 bank-mdn-portfolio/
+├── sql/
+│   ├── 01_create_database.sql           # DDL: pembuatan schema & tabel
+│   ├─  Query_SQL_Analyst.sql            # Query analitik per tahap
+│   └── Analisa Business MDN Bank.zip    # # Hasil output query (18 analisis)
+│
+└── README.md
+│
+├── python/
+│   ├─  bank_mdn_results.zip            # Hasil output script python 
+│   └── mdn_bank_project_portofolio.py  # Script Google Colab (cleaning + viz + report)
 │
 ├── dataset/
 │   ├── cabang.csv
@@ -40,18 +50,7 @@ bank-mdn-portfolio/
 │   ├── kpi_cabang.csv
 │   ├── karyawan.csv
 │   └── transaksi.csv
-│
-├── sql/
-│   ├── 01_create_database.sql       # DDL: pembuatan schema & tabel
-│   └── Query_SQL_Analyst.sql        # Query analitik per tahap
-│
-├── python/
-│   └── mdn_bank_project_portofolio.py  # Script Google Colab (cleaning + viz + report)
-│
-├── analisa/
-│   └── Analisa_Business_MDN_Bank/   # Hasil output query (18 analisis)
-│
-└── README.md
+
 ```
 
 ---
@@ -194,3 +193,13 @@ Dataset yang digunakan dalam proyek ini sepenuhnya **fiktif** dan dibuat untuk k
 
 Proyek ini bagian dari **BA Learning Path — Perbankan**.  
 Kontribusi, saran, dan diskusi sangat disambut! 🙌
+
+## 📜 Lisensi
+
+Proyek ini bersifat open portfolio. Bebas digunakan sebagai referensi belajar. Mohon cantumkan credit jika digunakan ulang.
+
+---
+
+*⭐ Jika proyek ini menginspirasi, silakan beri bintang!*
+
+*Last updated: June 2026 · Disusun oleh: Muhammad Rafi Fauzan*
