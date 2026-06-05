@@ -159,7 +159,7 @@ Catatan penting soal NPL: Angka 18,07% sangat tinggi karena dari 250 debitur, ad
 └──────────────────────────┴───────────────────────────────┘
 ```
 
-**Cara menjalankan:**
+Cara menjalankan:
 
 1. Buka [Google Colab](https://colab.research.google.com/)
 2. Upload file `mdn_bank_project_portofolio.py`
@@ -168,7 +168,7 @@ Catatan penting soal NPL: Angka 18,07% sangat tinggi karena dari 250 debitur, ad
 
 ---
 
-## 📋 Indikator Kesehatan Bank (Referensi)
+📋 Indikator Kesehatan Bank (Referensi)
 
 | Indikator | Nilai Ideal | Keterangan |
 |---|---|---|
@@ -183,23 +183,23 @@ Catatan penting soal NPL: Angka 18,07% sangat tinggi karena dari 250 debitur, ad
 
 ---
 
-## ⚠️ Disclaimer
+⚠️ Disclaimer
 
 Dataset yang digunakan dalam proyek ini sepenuhnya **fiktif** dan dibuat untuk keperluan pembelajaran. Tidak merepresentasikan data nasabah, karyawan, atau operasional bank manapun yang nyata.
 
 ---
 
-## 📬 Kontak
+📬 Kontak
 
 Proyek ini bagian dari **BA Learning Path — Perbankan**.  
 Kontribusi, saran, dan diskusi sangat disambut! 🙌
 
-## 📜 Lisensi
+📜 Lisensi
 
 Proyek ini bersifat open portfolio. Bebas digunakan sebagai referensi belajar. Mohon cantumkan credit jika digunakan ulang.
 
 ---
 
-*⭐ Jika proyek ini menginspirasi, silakan beri bintang!*
+⭐ Jika proyek ini menginspirasi, silakan beri bintang!
 
-*Last updated: June 2026 · Disusun oleh: Muhammad Rafi Fauzan*
+Last updated: June 2026 · Disusun oleh: Muhammad Rafi Fauzan
